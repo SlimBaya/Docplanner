@@ -1,0 +1,229 @@
+
+
+body{
+    font-family: sans-serif;
+    color: #747474;
+    max-width: 1000px;
+    margin: auto;
+
+}
+a{
+    color: #747474;
+    text-decoration: none;
+}
+.active{
+    color: #00b39b;
+}
+.docplanner-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px ;
+}
+.docplanner-logo-photo{
+    width: 268px;
+    height: 33px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+.intro-logo{
+    height: 70px;
+    width: 70px;
+}
+.intro-title{
+    color: #00b39b;
+}
+.intro-text{
+    display: flex;
+}
+.intro-p{
+    margin: 10px;
+}
+.services{
+    display: flex;
+}
+.service-card{
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    height: 250px;
+    flex-grow: 1;
+    width: 250px;
+}
+.service-card-patients{
+    background-color: #00ccb1;
+}
+.service-card-doctors{
+    background-color: #3d83df;
+}
+.service-card-seelct{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.service-card-photo1 img{
+    width: 250px;
+    margin-left: 235px;
+    margin-top: -55px;
+}
+.service-card-photo2 img{
+    width: 250px;
+    margin-left: 233px;
+    margin-top: -20px;
+}
+.local-culture{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.local-culture-text{
+    margin-top: -20px;
+    color: #00b39b;
+    font-size: 25px;
+}
+.local-cultre-lists{
+    width: 40%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+.platform{
+    background-color: #e5faf8;
+    background-image: url(photo3.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: bottom;
+    background-position-x: left;
+    padding: 10% 3%;
+    display: flex;
+    height: 500px;
+    border-radius: 3%;
+}
+.platform-1{
+    margin-right: 15%;
+}
+.platform-2{
+    text-align: center;
+}
+.platform-2-1{
+    display: flex;
+    justify-content: space-between
+}
+.platform-2-2{
+    display: flex;
+    justify-content: space-between
+}
+.platform-2-1-1{
+    background-color: white;
+    border-radius: 5%;
+    height: 180px;
+    width: 70%;
+    text-align: center;
+    margin-left: -40%;
+    margin-top: 25px;
+}
+.platform-2-1-2{
+    background-color: white;
+    border-radius: 5%;
+    height: 180px;
+    width: 70%;
+    margin-left: 10%;
+}
+.platform-2-2-1{
+    background-color: white;
+    border-radius: 5%;
+    height: 180px;
+    width: 86%;
+    margin-top: 58px;
+    margin-left: -45%;
+}
+.platform-2-2-2{
+    background-color: white;
+    border-radius: 5%;
+    height: 180px;
+    width: 85%;
+    margin-top: 45px;
+    margin-left: 20%;
+}
+.change{
+    text-align: center;
+}
+.change-title{
+    color: #00b39b
+}
+.city-1{
+    display: flex;
+    justify-content: space-around;
+}
+.city-2{
+    display: flex;
+    justify-content: space-around;
+}
+.city img{
+    border-radius: 3%;
+}
+.city-tb{
+    display: flex;
+    justify-content: space-around;
+}
+.city-b{
+    background-color: #3d83df;
+    border: none;
+    color: white;
+    padding: 4% 2%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 80%;
+    margin: 5% 2%;
+    cursor: pointer;
+    border-radius: 5%;
+    width: 32%;
+}
+
+.footer-1{
+    text-align: center;
+    font-size: 70%;
+    margin-top: 10%;
+}
+.footer-link{
+    color: #3d83df;
+}
+.footer-2{
+    text-align: center;
+    font-size: 70%;
+}
+.footer-sit{
+    text-align: center;
+    font-size: 70%;
+}
+@media only screen and (max-device-width: 700px)
+{
+    .intro-text{
+        display: flex;
+        flex-direction: column;
+    }
+    .services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;    }
+    
+    .service-card-photo2 img {
+        width: 250px;
+        margin-left: 130px;
+        margin-top: -20px;
+    }
+    .service-card-photo1 img {
+        width: 250px;
+        margin-left: 130px;
+        margin-top: -55px;
+    }
+
+
+
+}
